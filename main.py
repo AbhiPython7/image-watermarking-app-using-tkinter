@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import filedialog
-from PIL import Image,ImageTk,ImageDraw,ImageFont
+from PIL import Image,ImageTk,ImageDraw,ImageFont #"importing pillow module to open and edit our image"
 def open_files():
     window.filename=filedialog.askopenfilename(initialdir="/c",title="Add File")
     global filename
